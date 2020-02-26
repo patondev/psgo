@@ -22,7 +22,7 @@
 // execute ps either in the container or filter the output afterwards, further
 // limiting applicability.
 //
-// Please visit https://github.com/containers/psgo for further details about
+// Please visit https://github.com/patondev/psgo for further details about
 // supported format descriptors and to see some usage examples.
 package psgo
 
@@ -36,10 +36,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/containers/psgo/internal/capabilities"
-	"github.com/containers/psgo/internal/dev"
-	"github.com/containers/psgo/internal/proc"
-	"github.com/containers/psgo/internal/process"
+	"github.com/patondev/psgo/ps/capabilities"
+	"github.com/patondev/psgo/ps/dev"
+	"github.com/patondev/psgo/ps/proc"
+	"github.com/patondev/psgo/ps/process"
 	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )

@@ -17,8 +17,8 @@ package psgo
 import (
 	"testing"
 
-	"github.com/containers/psgo/internal/proc"
-	"github.com/containers/psgo/internal/process"
+	"github.com/patondev/psgo/ps/proc"
+	"github.com/patondev/psgo/ps/process"
 	"github.com/stretchr/testify/assert"
 )
 

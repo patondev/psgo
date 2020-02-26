@@ -1,4 +1,4 @@
-module github.com/containers/psgo
+module github.com/patondev/psgo
 
 go 1.12
 

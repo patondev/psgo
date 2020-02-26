@@ -6,7 +6,7 @@ GO ?= go
 BUILD_DIR := ./bin
 BIN_DIR := /usr/local/bin
 NAME := psgo
-PROJECT := github.com/containers/psgo
+PROJECT := github.com/patondev/psgo
 BATS_TESTS := *.bats
 GO_SRC=$(shell find . -name \*.go)
 
